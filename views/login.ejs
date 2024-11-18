@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Link to external CSS for styling -->
 </head>
 <body>
     <div class="login-container">
         <h2>Login</h2>
+        
+        <!-- Display error message if exists -->
         <% if (error) { %>
             <p class="error"><%= error %></p>
         <% } %>
+
         <form action="/auth/login" method="POST">
             <div>
                 <label for="username">Username:</label>

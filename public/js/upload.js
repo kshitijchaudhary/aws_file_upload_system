@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const file = files[0];
 
             // Validate file size and type
-            if (file.size > 10485760) { // 10MB limit
+            if (file.size > 10485760) { 
                 showMessage("File is too large. Max size is 10MB.", "error");
                 return;
             }
@@ -92,6 +92,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Display status messages
     function showMessage(message, type) {
         statusMessage.textContent = message;
-        statusMessage.className = type; // 'info', 'success', or 'error'
+        statusMessage.className = type; 
     }
 });

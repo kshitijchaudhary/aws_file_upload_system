@@ -27,7 +27,6 @@ body {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    ;
 }
 
 .navbar a:hover {
@@ -36,7 +35,7 @@ body {
 }
 
 .navbar .logout {
-    float: right; /* Align logout button to the right */
+    float: right;
 }
 
 /* Container Styles */
@@ -47,98 +46,98 @@ body {
 
 /* Form Container Styles */
 .login-container, .upload-container {
-    max-width: 600px; /* Limit width for better appearance */
-    margin: 50px auto; /* Center the form */
-    padding: 20px; /* Padding inside the form */
-    background-color: white; /* Background color for forms */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow effect */
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
 }
 
 /* Heading Styles */
 h2 {
-    text-align: center; /* Center align headings */
-    color: #333; /* Dark color for headings */
+    text-align: center; 
+    color: #333; 
 }
 
 /* Form Element Styles */
 form div {
-    margin-bottom: 15px; /* Space between form elements */
+    margin-bottom: 15px; 
 }
 
 label {
-    display: block; /* Labels on new lines */
-    margin-bottom: 5px; /* Space below labels */
+    display: block; 
+    margin-bottom: 5px; 
 }
 
 input[type="text"], input[type="password"], input[type="file"] {
-    width: 100%; /* Full width inputs */
-    padding: 8px; /* Padding inside inputs */
-    border: 1px solid #ddd; /* Light border for inputs */
-    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
 }
 
 /* Button Styles */
 button {
-    width: 100%; /* Full width buttons */
-    padding: 10px; /* Padding inside buttons */
-    background-color: #4CAF50; /* Green background for buttons */
-    color: white; /* White text on buttons */
-    border: none; /* No border on buttons */
-    border-radius: 4px; /* Rounded corners for buttons */
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
 /* Error Message Styles */
 .error {
-    color: red; /* Red color for error messages */
-    text-align: center; /* Center align error messages */
-    margin-bottom: 10px; /* Space below error messages */
+    color: red; 
+    text-align: center; 
+    margin-bottom: 10px; 
 }
 
 /* Drag-and-Drop Area Styles */
 #drop-area {
-    border: 2px dashed #ccc; /* Dashed border for drop area */
-    border-radius: 20px; /* Rounded corners for drop area */
-    width: 100%; /* Full width drop area */
-    margin: 20px auto; /* Center align drop area with margin */
-    padding: 20px; /* Padding inside drop area */
-    text-align: center; /* Center align text in drop area */
+    border: 2px dashed #ccc; 
+    border-radius: 20px; 
+    width: 100%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    text-align: center; 
 }
 
 #drop-area.highlight {
-    border-color: #4CAF50; /* Change border color when highlighted */
-    background-color: #f0f0f0; /* Light background when highlighted */
+    border-color: #4CAF50; 
+    background-color: #f0f0f0; 
 }
 
 /* Progress Bar Styles */
 .progress {
-    height: 20px; /* Height of progress bar container */
-    background-color: #f0f0f0; /* Light gray background for progress bar container */
-    border-radius: 10px; /* Rounded corners for progress bar container */
+    height: 20px; 
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
 }
 
 .progress-bar {
-    height: 100%; /* Full height of the progress bar itself */
-    background-color: #4CAF50; /* Green color for progress bar fill */
-    border-radius: 10px; /* Rounded corners for progress bar fill */
+    height: 100%; 
+    background-color: #4CAF50; 
+    border-radius: 10px; 
 }
 
 /* Message Area Styles */
 #messageArea {
-    margin-top: 20px; /* Space above message area */
-    font-weight: bold; /* Bold text in message area */
+    margin-top: 20px; 
+    font-weight: bold; 
 }
 
 .text-danger {
-    color: red; /* Red color for danger messages (errors) */
+    color: red; 
 }
 
 .text-success {
-    color: green; /* Green color for success messages (uploads) */
+    color: green; 
 }
 
 /* Student Details Styles */

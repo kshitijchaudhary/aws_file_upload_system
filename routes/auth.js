@@ -1,4 +1,4 @@
-// Import and configure dotenv (for environment variables)
+// Import and configure dotenv
 require('dotenv').config();
 
 const express = require('express');
