@@ -19,12 +19,11 @@ Before starting, make sure you have the following installed:
 ### 1. Clone the repository
 First, clone the repository to your local machine:
 
-```bash
-git clone https://github.com/your-username/aws-s3-file-upload.git
-cd aws-s3-file-upload
+`git clone https://github.com/your-username/aws-s3-file-upload.git`
+`cd aws-s3-file-upload`
 
 
-## 2. Install Dependencies
+2. Install Dependencies
 Navigate to the project directory and install the necessary dependencies by running:
 `npm install`
 
