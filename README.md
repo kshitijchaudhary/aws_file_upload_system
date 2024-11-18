@@ -60,5 +60,5 @@ This endpoint handles file uploads to AWS S3.
 
 - Response: A JSON response with success or error message.
 
-<pre> ```bash { "success": true, "message": "File uploaded successfully" } ``` </pre>
+<pre> { "success": true, "message": "File uploaded successfully" } </pre>
 
