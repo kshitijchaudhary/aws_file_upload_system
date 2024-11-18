@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar p{
+    color: #f2f2f2;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    ;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar .logout {
+    float: right; /* Align logout button to the right */
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Form Container Styles */
+.login-container, .upload-container {
+    max-width: 600px; /* Limit width for better appearance */
+    margin: 50px auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: white; /* Background color for forms */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center; /* Center align headings */
+    color: #333; /* Dark color for headings */
+}
+
+/* Form Element Styles */
+form div {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+label {
+    display: block; /* Labels on new lines */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input[type="text"], input[type="password"], input[type="file"] {
+    width: 100%; /* Full width inputs */
+    padding: 8px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Button Styles */
+button {
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Padding inside buttons */
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text on buttons */
+    border: none; /* No border on buttons */
+    border-radius: 4px; /* Rounded corners for buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Error Message Styles */
+.error {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center align error messages */
+    margin-bottom: 10px; /* Space below error messages */
+}
+
+/* Drag-and-Drop Area Styles */
+#drop-area {
+    border: 2px dashed #ccc; /* Dashed border for drop area */
+    border-radius: 20px; /* Rounded corners for drop area */
+    width: 100%; /* Full width drop area */
+    margin: 20px auto; /* Center align drop area with margin */
+    padding: 20px; /* Padding inside drop area */
+    text-align: center; /* Center align text in drop area */
+}
+
+#drop-area.highlight {
+    border-color: #4CAF50; /* Change border color when highlighted */
+    background-color: #f0f0f0; /* Light background when highlighted */
+}
+
+/* Progress Bar Styles */
+.progress {
+    height: 20px; /* Height of progress bar container */
+    background-color: #f0f0f0; /* Light gray background for progress bar container */
+    border-radius: 10px; /* Rounded corners for progress bar container */
+}
+
+.progress-bar {
+    height: 100%; /* Full height of the progress bar itself */
+    background-color: #4CAF50; /* Green color for progress bar fill */
+    border-radius: 10px; /* Rounded corners for progress bar fill */
+}
+
+/* Message Area Styles */
+#messageArea {
+    margin-top: 20px; /* Space above message area */
+    font-weight: bold; /* Bold text in message area */
+}
+
+.text-danger {
+    color: red; /* Red color for danger messages (errors) */
+}
+
+.text-success {
+    color: green; /* Green color for success messages (uploads) */
+}
+
+/* Student Details Styles */
+.student-details {
+   background-color:#e9ecef;
+   padding :10px;
+   border-radius :8px;
+   margin-bottom :20px;
+}
