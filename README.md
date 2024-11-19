@@ -16,6 +16,9 @@ Before starting, make sure you have the following installed:
 - **npm** (Node Package Manager) – npm comes with Node.js
 - **AWS Account** – You'll need an AWS account to set up the S3 bucket and IAM user for access.
 
+## Deployment
+### Local Deployment
+The application can be deployed locally by following the setup instructions.
 ### 1. Clone the repository
 First, clone the repository to your local machine:
 
@@ -29,17 +32,17 @@ Navigate to the project directory and install the necessary dependencies by runn
 
 ### 3. Setup Environment Variables
 Create a .env file in the root of the project directory and add the following environment variables:
-AWS_ACCESS_KEY_ID=your_aws_access_key_id
-AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
-AWS_BUCKET_NAME=your_s3_bucket_name
-AWS_REGION=your_aws_region
-SESSION_SECRET=your_session_secret_key 
+- AWS_ACCESS_KEY_ID=your_aws_access_key_id
+- AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+- AWS_BUCKET_NAME=your_s3_bucket_name
+- AWS_REGION=your_aws_region
+- SESSION_SECRET=your_session_secret_key 
 
 ### Required Environment Variables
-AWS_ACCESS_KEY_ID: Your AWS access key ID.
-AWS_SECRET_ACCESS_KEY: Your AWS secret access key.
-AWS_REGION: The region of your S3 bucket.
-AWS_BUCKET_NAME: The name of your S3 bucket.
+- AWS_ACCESS_KEY_ID: Your AWS access key ID.
+- AWS_SECRET_ACCESS_KEY: Your AWS secret access key.
+- AWS_REGION: The region of your S3 bucket.
+- AWS_BUCKET_NAME: The name of your S3 bucket.
 
 ### 4. Configure AWS S3
 - Log into the AWS Management Console.
@@ -51,7 +54,8 @@ AWS_BUCKET_NAME: The name of your S3 bucket.
 ### 5. Start the Server
 Now you can start the application by running:
 
-`npm start`
+`npm run dev`
+As we have used nodemon for running node application
 
 ### 6. Access the Application
 Open a web browser and go to:
@@ -118,10 +122,6 @@ Error:
 #### Creating Session key
 `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
 
-## Deployment
-### Local Deployment
-The application can be deployed locally by following the setup instructions above.
-
 ### AWS Configuration
 We have to make sure that we have the correct AWS credentials and IAM permissions configured in our .env file. The application should work without further changes to AWS if your credentials are correct.
 
@@ -143,6 +143,11 @@ We have to make sure that we have the correct AWS credentials and IAM permission
 
 5. **AWS IAM Configuration for Access Keys and Policies**  
    ![AWS IAM Configuration](public/images/iamuser.jpg)
+   ![AWS IAM Permissions](public/images/iamuserpermissions.jpg)
+
+5. **Error Handling**  
+   ![Incorrect Credentials](public/images/loginerror.jpg)
+   ![Uploading photo more than 10MB](public/images/large_photo.jpg)
 
 
 ## ⚙️ Additional Configuration Steps
